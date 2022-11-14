@@ -1,9 +1,12 @@
 <?php
 
+// Definition des variables de notre tableau
 $type = ["Boolean","Entier","Str","Float"];
 $nom = ["var0","var1","var2","var3"];
 $valeur = ["True","12","abgherjy","10.5"];
 
+
+// Mise en page du tableau
 echo "
 <table border=5>
     <tr>

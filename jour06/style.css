@@ -1,0 +1,10 @@
+body {margin:0;
+    background-color: rgb(26, 29, 29);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.formulaire{border: solid 2px burlywood;
+        margin-left: 400px;
+        margin-right: 400px;
+    }

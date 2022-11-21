@@ -15,13 +15,12 @@ la maison qui s’affiche sur la page doit ressembler à ceci : -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>job07</title>
 </head>
 <body>
     <form action="" method="get" class="formulaire">
         <label for="largeur">Largeur ? : </label>
-        <input type="text" name="largeur" id="largeur
-        ">
+        <input type="text" name="largeur" id="largeur">
 
         <label for="hauteur">Hauteur ? :</label>
         <input type="text" name="hauteur" id="hauteur">
@@ -30,7 +29,11 @@ la maison qui s’affiche sur la page doit ressembler à ceci : -->
     </form> 
 
 <?php
-var_dump($_GET);
+// var_dump($_GET);
+$largeur=(int)$_GET["largeur"];
+$hauteur=(int)$_GET["hauteur"];
+
+echo "$largeur $hauteur <br>";
 
 
 

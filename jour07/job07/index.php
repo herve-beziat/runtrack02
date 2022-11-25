@@ -38,6 +38,16 @@ Elle affiche “$str” en ajoutant un “_” aux mots finissant par “me”. 
 
 <?php
 
+$str=$_POST["str"];
+
+function gras($str){
+    $maj="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    for ($i=0; isset($str[$i]); $i++){
+        for ($j=0; isset($maj[$j]); $j++){
+        }
+    }
+} 
+
 
 
 
